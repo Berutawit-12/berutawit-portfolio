@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  color: white;
+  background: black;
+  overflow-x: hidden;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+header {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+section {
+  width: 80%;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 40px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+}
+
+.skill-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px;
+}
+
+.skill-grid span {
+  background: #2563eb;
+  padding: 10px;
+  text-align: center;
+  border-radius: 6px;
+}
